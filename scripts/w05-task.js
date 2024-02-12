@@ -39,6 +39,9 @@ const reset = () => templesElement.innerHTML = "";
 
 /* filterTemples Function */
 
+
+// Name of the function could also be "sortBy":
+
 const filterTemples = (temples) => {
     reset();
     let filter = document.getElementById("filtered").value;
